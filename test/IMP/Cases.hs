@@ -5,7 +5,6 @@ import           IMP.Syntax
 
 import           Data.List.NonEmpty (NonEmpty (..))
 
-import           Debug.Trace
 
 collatzRef :: Int -> Int
 collatzRef input = go 0 input input

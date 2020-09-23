@@ -13,8 +13,8 @@ data Prim where
   deriving (Show)
 
 data BoolExpr where
-  Bool :: Bool   -> BoolExpr
-  LEQ  :: Prim -> Prim -> BoolExpr
+  Bool :: Bool                 -> BoolExpr
+  LEQ  :: Prim     -> Prim     -> BoolExpr
   Not  :: BoolExpr -> BoolExpr
   And  :: BoolExpr -> BoolExpr -> BoolExpr
   deriving (Show)
